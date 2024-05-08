@@ -9,7 +9,9 @@ import HomePage from './pages/HomePage';
 import WorkPage from './pages/WorkPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage'
+import NotFound from './pages/NotFound';
 
+// Routes
 const router = createBrowserRouter([
   {
     path: '/',
@@ -32,8 +34,13 @@ const router = createBrowserRouter([
         element: <ContactPage />
       }
     ]
+  },
+  {
+    path: '*',
+    element: <NotFound />
   }
 ])
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
