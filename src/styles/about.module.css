@@ -1,0 +1,98 @@
+.wrapper {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    color: #828aa0;
+    font-weight: 500;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 33rem;
+}
+
+.about h1 {
+    font-size: 4rem;
+    color: #789af7;
+}
+
+.about p {
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: #828aa0;
+    font-weight: 500;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.arrow .arrow_icon {
+    transition: transform 0.3s;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.main_image {
+    border-radius: 50%;
+    box-shadow: -5px -5px 10px 3px #fff, 5px 5px 10px 3px rgba(136, 144, 167, .2);
+    max-width: 600px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.main_image img {
+    max-width: 550px;
+    border-radius: 50%;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+}
+
+.arrow:hover .arrow_icon {
+    transform: rotate(-35deg);
+}
+
+.social_links {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.social_links a {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.social_links a:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+}

@@ -1,0 +1,10 @@
+.nav_link {
+    color: #828aa0;
+    font-size: 1.2rem;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}

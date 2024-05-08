@@ -1,0 +1,12 @@
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: 1.8rem auto;
+    padding: 1rem;
+}
+
+.name h1 {
+    color: #789af7;
+}
