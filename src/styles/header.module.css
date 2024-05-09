@@ -7,6 +7,11 @@
     padding: 1rem;
 }
 
-.name h1 {
+.name h2 {
     color: #789af7;
+    transition: transform ease 0.3s;
+}
+
+.main_logo:hover {
+    transform: scale(0.9);
 }

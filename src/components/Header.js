@@ -6,7 +6,7 @@ function Header() {
     return (
         <header className={classes.name}>
             <a href="/">
-                <h1>TORNIKE</h1>
+                <h2 className={classes.main_logo}>TORNIKE</h2>
             </a>
             <Navigation />
         </header>

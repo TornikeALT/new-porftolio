@@ -1,10 +1,10 @@
 .service_container {
-    margin-top: 10rem;
+    margin-top: 25rem;
 }
 
 .service_wrapper {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .service {
@@ -18,9 +18,10 @@
 
 .service h3 {
     font-size: 1.7rem;
+    color: #828aa0;
 }
 
-.service_container h1 {
+.service_container h2 {
     font-size: 4rem;
     color: #789af7;
     margin-bottom: 5rem;
@@ -30,4 +31,6 @@
     max-width: 20rem;
     line-height: 2rem;
     font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: #828aa0;
 }

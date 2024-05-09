@@ -7,7 +7,7 @@ import classes from '../styles/services.module.css'
 function Services() {
     return (
         <div className={classes.service_container}>
-            <h1>What I Offer</h1>
+            <h2>What I Offer</h2>
             <div className={classes.service_wrapper}>
                 <div className={classes.service}>
                     <FaReact size={75} color="#789af7" />
