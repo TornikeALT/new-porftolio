@@ -36,7 +36,7 @@
     align-items: center;
     gap: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 8px;
     transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
@@ -95,4 +95,14 @@
 
 .social_links a:hover {
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+}
+
+.arrow_bg_circle {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(160, 156, 156, 0.8) 0px 5px 15px;
 }

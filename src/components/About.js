@@ -19,12 +19,14 @@ function About() {
                     Hello, I'm Tornike Altunashvili
                 </h1>
                 <p>
-                    A digital designer with over 10 years' experience in the creative industry. From a young age, I was captivated by the intersection of technology and art, and that passion has been the driving force behind my career.
+                    A dedicated front-end developer with a passion for React. I specialize in creating dynamic, user-friendly web applications that harness the power of this cutting-edge library.
                 </p>
                 <div className={classes.icons}>
                     <div className={classes.arrow}>
                         <span>Get in touch</span>
-                        <ArrowForwardIcon className={classes.arrow_icon} />
+                        <div className={classes.arrow_bg_circle}>
+                            <ArrowForwardIcon className={classes.arrow_icon} />
+                        </div>
                     </div>
                     <div className={classes.social_links}>
                         <a href="https://github.com/TornikeALT?tab=repositories">
