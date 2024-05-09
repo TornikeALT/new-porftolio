@@ -1,10 +1,18 @@
 .nav_link {
     color: #828aa0;
     font-size: 1.2rem;
+    transition: transform 0.3s;
+    display: inline-block;
+    /*to prevent items from shaking*/
 }
 
 .navigation ul {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+
+.navigation ul li a:hover {
+    transform: scale(0.9);
 }

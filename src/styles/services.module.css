@@ -1,0 +1,33 @@
+.service_container {
+    margin-top: 10rem;
+}
+
+.service_wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.service h3 {
+    font-size: 1.7rem;
+}
+
+.service_container h1 {
+    font-size: 4rem;
+    color: #789af7;
+    margin-bottom: 5rem;
+}
+
+.service p {
+    max-width: 20rem;
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
