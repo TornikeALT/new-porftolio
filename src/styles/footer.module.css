@@ -1,0 +1,26 @@
+.footer {
+    max-width: 1240px;
+    margin: 8rem auto 2rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 0.6px;
+    color: #828aa0;
+    align-items: center;
+}
+
+.footer_nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer_nav a {
+    color: #828aa0;
+}
+
+.created_by span,
+.powered_by span {
+    color: #789af7;
+    padding-left: 4px;
+}

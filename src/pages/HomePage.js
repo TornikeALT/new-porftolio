@@ -16,7 +16,7 @@ function HomePage() {
             <section>
                 <Projects />
             </section>
-            <section style={{ overflow: 'hidden', marginTop: '15rem' }}>
+            <section style={{ overflow: 'hidden', marginTop: '10rem' }}>
                 <Banner />
             </section>
         </>
