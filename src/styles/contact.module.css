@@ -1,3 +1,7 @@
+.container {
+    margin-top: 10rem;
+}
+
 .social_links {
     display: flex;
     gap: 1.3rem;
@@ -16,4 +20,51 @@
 
 .social_links a:hover {
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+}
+
+.get_in_touch {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 35rem;
+}
+
+.get_in_touch h1 {
+    font-size: 4rem;
+    color: #789af7;
+}
+
+.get_in_touch p {
+    line-height: 1.7rem;
+    color: #828aa0;
+}
+
+.form {
+    max-width: 40rem;
+    margin: 5rem auto 0 auto;
+    box-shadow: -5px -5px 10px 3px #fff, 5px 5px 10px 3px rgba(136, 144, 167, .2);
+    padding: 1rem 2rem 3rem 2rem;
+    border-radius: 8px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 1.5rem 0;
+    padding: 1rem;
+}
+
+.input input {
+    min-height: 3rem;
+    border: 1px solid rgba(136, 144, 167, .25);
+    border-radius: 8px;
+}
+
+
+.input textarea {
+    resize: none;
+    min-height: 8rem;
+    border-radius: 8px;
+    border: 1px solid rgba(136, 144, 167, .25);
 }
