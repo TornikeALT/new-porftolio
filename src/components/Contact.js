@@ -41,7 +41,7 @@ function Contact() {
                     <label htmlFor="">Message</label>
                     <textarea name="" id="" maxLength={256}></textarea>
                 </div>
-                <button>Submit</button>
+                <button>Send Message</button>
             </form>
         </div>
     );
