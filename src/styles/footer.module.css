@@ -17,10 +17,16 @@
 
 .footer_nav a {
     color: #828aa0;
+    transition: transform 0.4s;
+    display: inline-block
 }
 
 .created_by span,
 .powered_by span {
     color: #789af7;
     padding-left: 4px;
+}
+
+.footer_nav a:hover {
+    transform: scale(0.9)
 }

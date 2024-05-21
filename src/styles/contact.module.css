@@ -1,0 +1,19 @@
+.social_links {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.social_links a {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.social_links a:hover {
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+}

@@ -11,37 +11,43 @@ function Projects() {
             <h2>My Projects</h2>
             <div className={classes.projects}>
                 <div className={classes.project}>
-                    <div className={classes.image_container}>
-                        <img src={fakestore} alt="fake store" />
-                    </div>
-                    <div className={classes.description}>
-                        <span>Fake Store</span>
-                        <div className={classes.arrow_bg_circle}>
-                            <ArrowForwardIcon className={classes.arrow_icon} />
+                    <a href="https://imafake-store.netlify.app" target='/blank'>
+                        <div className={classes.image_container}>
+                            <img src={fakestore} alt="fake store" />
                         </div>
-                    </div>
+                        <div className={classes.description}>
+                            <span>Fake Store</span>
+                            <div className={classes.arrow_bg_circle}>
+                                <ArrowForwardIcon className={classes.arrow_icon} />
+                            </div>
+                        </div>
+                    </a>
                 </div>
                 <div className={classes.project}>
-                    <div className={classes.image_container}>
-                        <img src={carRent} alt="car rent" />
-                    </div>
-                    <div className={classes.description}>
-                        <span>Car Rent</span>
-                        <div className={classes.arrow_bg_circle}>
-                            <ArrowForwardIcon className={classes.arrow_icon} />
+                    <a href='https://tbilisi-rent.netlify.app' target='/blank'>
+                        <div className={classes.image_container}>
+                            <img src={carRent} alt="car rent" />
                         </div>
-                    </div>
+                        <div className={classes.description}>
+                            <span>Car Rent</span>
+                            <div className={classes.arrow_bg_circle}>
+                                <ArrowForwardIcon className={classes.arrow_icon} />
+                            </div>
+                        </div>
+                    </a>
                 </div>
                 <div className={classes.project}>
-                    <div className={classes.image_container}>
-                        <img src={pirus} alt="Pirus" />
-                    </div>
-                    <div className={classes.description}>
-                        <span>Pirus</span>
-                        <div className={classes.arrow_bg_circle}>
-                            <ArrowForwardIcon className={classes.arrow_icon} />
+                    <a href="https://pirus.netlify.app" target='/blank'>
+                        <div className={classes.image_container}>
+                            <img src={pirus} alt="Pirus" />
                         </div>
-                    </div>
+                        <div className={classes.description}>
+                            <span>Pirus</span>
+                            <div className={classes.arrow_bg_circle}>
+                                <ArrowForwardIcon className={classes.arrow_icon} />
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
