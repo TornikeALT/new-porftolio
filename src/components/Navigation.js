@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import classes from '../styles/navigation.module.css'
 
-
 function Navigation() {
     return (
         <nav className={classes.navigation}>

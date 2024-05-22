@@ -30,3 +30,34 @@
 .footer_nav a:hover {
     transform: scale(0.9)
 }
+
+/* Responsive */
+@media (max-width:991px) {
+    .footer {
+        display: grid;
+        grid-template-areas:
+            ". nav ."
+            ". created_by ."
+            ". powered_by .";
+        ;
+        justify-items: center;
+        gap: 2rem;
+    }
+
+    .powered_by {
+        grid-area: powered_by;
+    }
+
+    .created_by {
+        grid-area: created_by;
+    }
+
+    .footer_nav {
+        grid-area: nav;
+    }
+
+    .footer_nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

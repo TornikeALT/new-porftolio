@@ -15,3 +15,14 @@
 .main_logo:hover {
     transform: scale(0.9);
 }
+
+.hamburger {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width:991px) {
+    .hamburger {
+        display: block;
+    }
+}

@@ -1,5 +1,6 @@
 .projects_container {
     margin-top: 10rem;
+    padding: 3rem;
 }
 
 .projects_container h2 {
@@ -16,7 +17,7 @@
 
 .projects img {
     max-width: 35rem;
-    min-height: 25rem;
+    min-height: 20rem;
     border-radius: 8px;
 }
 
@@ -80,4 +81,31 @@
 
 .project:hover .image_container img {
     transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width:991px) {
+    .projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .projects img {
+        max-width: unset;
+    }
+}
+
+@media (max-width:768px) {
+    .projects_container {
+        padding: unset;
+    }
+
+    .projects_container h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:570px) {
+    .projects img {
+        min-height: unset;
+    }
 }

@@ -1,6 +1,7 @@
 .service_container {
     margin-top: 25rem;
     margin-bottom: 5rem;
+    padding: 3rem;
 }
 
 .service_wrapper {
@@ -34,4 +35,38 @@
     font-size: 1.1rem;
     letter-spacing: 1px;
     color: #828aa0;
+}
+
+/* Responsive  */
+
+@media (max-width:991px) {
+    .service_container {
+        margin-top: 10rem;
+    }
+
+    .service_wrapper {
+        flex-direction: column;
+    }
+
+    .service p {
+        max-width: unset;
+    }
+}
+
+@media (max-width:768px) {
+    .service_container {
+        padding: unset;
+    }
+
+    .service_container h2 {
+        font-size: 2.5rem;
+    }
+
+    .service h3 {
+        font-size: 1.2rem;
+    }
+
+    .service p {
+        font-size: 1rem;
+    }
 }
