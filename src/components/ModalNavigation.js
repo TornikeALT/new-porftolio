@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { VscChromeClose } from "react-icons/vsc";
+
 
 import classes from '../styles/modalNavigation.module.css'
 
@@ -9,19 +9,18 @@ function ModalNavigation({ isNavigationOpen, closeNavigation }) {
         <>
             {isNavigationOpen &&
                 <nav className={classes.overlay}>
-                    <VscChromeClose onClick={closeNavigation} />
                     <ul className={classes.content}>
                         <li>
-                            <Link to={'/'} >• Home</Link>
+                            <Link to={'/'} onClick={closeNavigation}>• Home</Link>
                         </li>
                         <li>
-                            <Link to={'/work'} >• Work</Link>
+                            <Link to={'/work'} onClick={closeNavigation}>• Work</Link>
                         </li>
                         <li>
-                            <Link to={'/about'} >• About</Link>
+                            <Link to={'/about'} onClick={closeNavigation}>• About</Link>
                         </li>
                         <li>
-                            <Link to={'/contact'} >• Contact</Link>
+                            <Link to={'/contact'} onClick={closeNavigation}>• Contact</Link>
                         </li>
                     </ul>
                 </nav>}

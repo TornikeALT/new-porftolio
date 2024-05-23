@@ -16,13 +16,39 @@
     transform: scale(0.9);
 }
 
-.hamburger {
+
+.hamburger_bg {
     display: none;
+}
+
+.dash {
+    display: none;
+}
+
+
+.hamburger_bg:hover {
+    cursor: pointer;
+}
+
+.dash:hover {
+    cursor: pointer;
 }
 
 /* Responsive */
 @media (max-width:991px) {
-    .hamburger {
-        display: block;
+    .hamburger_bg {
+        display: inline;
+    }
+
+    .hamburger_bg,
+    .dash {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        z-index: 100;
     }
 }
