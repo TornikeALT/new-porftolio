@@ -8,17 +8,15 @@ import classes from '../styles/header.module.css'
 
 function Header() {
     const [showNavigation, setShowNavigation] = useState(false);
-    const [animate, setAnimate] = useState(false)
-
 
     const handleNavigationShow = () => {
         setShowNavigation(true);
-
     }
 
     const handleNavigationClose = () => {
         setShowNavigation(false)
     }
+
 
     return (
         <header className={classes.name}>
@@ -32,7 +30,7 @@ function Header() {
                 </div>
                 :
                 <div className={classes.dash} onClick={handleNavigationClose} >
-                    <GoDash size={30} color="#828aa0" />
+                    <GoDash size={30} color="#828aa0" className={classes.dash_animate} />
                 </div>
             }
             <ModalNavigation isNavigationOpen={showNavigation} closeNavigation={handleNavigationClose} />
